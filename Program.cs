@@ -121,7 +121,7 @@ namespace R8Assembler
                 // If it's halt
                 if (tokens[0] == "halt")
                 {
-                    outputLines.Add("11111000");
+                    outputLines.Add("10000000");
                 }
             }
 
